@@ -44,15 +44,15 @@ function ChartsPage({ expenses }) {
   });
 
   return (
-    <div className="max-w-6xl mx-auto bg-black/25 p-4 sm:p-6 rounded-2xl shadow-md">
-      <h2 className="text-xl sm:text-2xl font-bold text-white mb-6 text-center">
+    <div className="max-w-6xl mx-auto bg-white p-4 sm:p-6 rounded-2xl shadow-md">
+      <h2 className="text-xl sm:text-2xl font-bold text-gray-700 mb-6 text-center">
         Expense Visualizations
       </h2>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Pie Chart */}
         <div className="w-full">
-          <h3 className="text-base sm:text-lg font-semibold mb-4 text-white text-center">
+          <h3 className="text-base sm:text-lg font-semibold mb-4 text-gray-600 text-center">
             Category-wise Distribution
           </h3>
           <ResponsiveContainer width="100%" height={300}>
@@ -83,7 +83,7 @@ function ChartsPage({ expenses }) {
 
         {/* Bar Chart */}
         <div className="w-full">
-          <h3 className="text-base sm:text-lg font-semibold mb-4 text-white text-center">
+          <h3 className="text-base sm:text-lg font-semibold mb-4 text-gray-600 text-center">
             Month-wise Spending
           </h3>
           <ResponsiveContainer width="100%" height={300}>
