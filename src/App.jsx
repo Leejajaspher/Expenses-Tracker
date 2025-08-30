@@ -39,7 +39,7 @@ function App(){
 
   return(
     <Router>
-      <div className="min-h-screen bg-[url('Images/bg.jpeg')] bg-cover bg-center bg-no-repeat">
+      <div className="min-h-screen bg-[url('images/bg.jpeg')] bg-cover bg-center bg-no-repeat">
 
       <nav className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-900 shadow-md px-4 sm:px-6 py-4 flex flex-wrap justify-between items-center sticky top-0 z-50 mb-10">
   {/* Logo / Title */}
@@ -92,5 +92,5 @@ function App(){
 </Router>
 );
 }
-
+git
 export default App;
